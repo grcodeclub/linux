@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var menuLink = ' <li><a href="https://grcodeclub.github.io/system">Αρχική Σελίδα</a></li>';
+    var menuLink = ' <li><a href="https://grcodeclub.github.io">Αρχική Σελίδα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/linux/">Linux</li>';
     $('.sidebarMenuInner').append(menuLink);
