@@ -5,7 +5,7 @@ $(document).ready(function() {
     $('.sidebarMenuInner').append(menuLink);
     menuLink = ' <li><a href="https://grcodeclub.github.io/system/">Σύστημα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = '<li><a href="https://grcodeclub.github.io/linux/command.html">Εντολές</li>';
+    menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/command.html">Εντολές</li>';
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/system_file.html">Αρχεία</a></li>';
     $('.sidebarMenuInner').append(menuLink);
