@@ -5,7 +5,11 @@ $(document).ready(function() {
     $('.sidebarMenuInner').append(menuLink);
     menuLink = ' <li><a href="https://grcodeclub.github.io/system/">Σύστημα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/command.html">Εντολές</li>';
+    menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/cmd/network.html">Εντολές Δικτύου</li>';
+    $('.sidebarMenuInner').append(menuLink);
+    menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/cmd/system.html">Εντολές Συστήματος</li>';
+    $('.sidebarMenuInner').append(menuLink);
+    menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/cmd/file.html">Eντολές Διαχείρισης Αρχείων και Καταλόγων</li>';
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/system_file.html">Αρχεία</a></li>';
     $('.sidebarMenuInner').append(menuLink);
