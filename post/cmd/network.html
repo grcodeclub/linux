@@ -70,6 +70,8 @@
             <div class="text_bg">
             <h1 class="title">Εντολές Δικτύου</h1>
 
+            <h3 class="highlight_blue">netstat</h3>
+
             <p>Εμφανίζει πληροφορίες για τις δικτυακές συνδέσεις, τις πόρτες που ακούν και άλλα στατιστικά δικτύου.</p>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">netstat</code></pre></div>
             
@@ -78,16 +80,39 @@
 
             <p>List all UDP ports</p>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">netstat -au</code></pre></div>  
-    
+  
+            <p>Για να επιστρέψετε μια λίστα μόνο με τα listening για όλα τα πρωτόκολλα, χρησιμοποιήστε:</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">netstat -l</code></pre></div>  
+  
+            <p>Για να επιστρέψετε μια λίστα μόνο με τα TCP ports  που είναι listening, χρησιμοποιήστε:</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">netstat -lt</code></pre></div>  
+  
+            <p>Για να επιστρέψετε μια λίστα μόνο με τα UDP ports  που είναι listening, χρησιμοποιήστε:</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">netstat -lu</code></pre></div>  
+  
+            <p>Εμφάνιση στατιστικών στοιχείων για όλες τις θύρες ανεξάρτητα από το πρωτόκολλο</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">netstat -s</code></pre></div>  
+  
+            <p>Εμφάνιση στατιστικών στοιχείων μόνο για TCP ports</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">netstat -st</code></pre></div>  
+
+            <h3 class="highlight_blue">ss</h3>
+
             <p>Είναι αντικατάσταση του netstat.</p>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">ss</code></pre></div>  
              
+            <h3 class="highlight_blue">ping</h3>
+
             <p>	Αποστέλλει μια ICMP αίτηση προς έναν καθορισμένο προορισμό για να ελέγξει την συνδεσιμότητα και τον χρόνο απόκρισης.</p>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">ping www.google.com</code></pre></div>                
             
+            <h3 class="highlight_blue">traceroute</h3>
+
             <p>Εμφανίζει τη διαδρομή που ακολουθείται από ένα πακέτο κατά τη μετάδοσή του από την αρχική πηγή προς τον προορισμό.</p>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">traceroute  www.google.com</code></pre></div>                
         
+            <h3 class="highlight_blue">nslookup</h3>
+            
             <p>Εκτελεί αντίστροφη αναζήτηση DNS για να ανακτήσει πληροφορίες σχετικά με έναν καθορισμένο κεντρικό διακομιστή ονομάτων.</p>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">nslookup www.google.com</code>
 Server:         192.168.1.1
@@ -100,11 +125,17 @@ Name:   www.google.com
 Address: 2a00:1450:4017:805::2004
 </pre></div>                
         
+            <h3 class="highlight_blue">ssh</h3>
+
             <p>Επιτρέπει ασφαλή απομακρυσμένη σύνδεση με έναν εξυπηρετητή μέσω του πρωτοκόλλου SSH.</p>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">ssh</code></pre></div>                
 
+            <h3 class="highlight_blue">scp</h3>
+
             <p>Αντιγράφει αρχεία ασφαλούς απομακρυσμένης σύνδεσης μεταξύ του τοπικού και απομακρυσμένου συστήματος.</p>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">scp</code></pre></div>                
+
+            <h3 class="highlight_blue">wget</h3>
 
             <p>Λήψη αρχείων από το διαδίκτυο μέσω του πρωτοκόλλου HTTP, HTTPS και FTP.</p>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">wget  https://grcodeclub.github.io/</code>
