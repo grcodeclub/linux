@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/header_and_footer.css">
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/main.css">
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/text.css">
-        <link rel="stylesheet" href="https://grcodeclub.github.io/css/table.css">
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/layout.css">
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/code_bg.css" />
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/prism.css" />
@@ -25,44 +24,35 @@
     <div class="container">
         <section class="show_desktop"> <!--ΑΡΧΗ show_desktop-->
             <div class="Header"> <!--ΑΡΧΗ Header show_desktop-->
-                <table>
-                    <tr>
-                        <td><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></td>
-                        <td><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></td>
-                        <td><a href="https://github.com/GrCodeClub/linux/edit/main/post/cmd/network.html" target="_blank"><img src="https://grcodeclub.github.io/file/logo_and_graphic/edit.png"  width="60px"></a></td>
-                    </tr>
-                </table> 
+                <div class="layout">
+                    <div><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></div>
+                    <div><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></div>
+                    <div><a href="https://github.com/GrCodeClub/linux/edit/main/post/cmd/network.html" target="_blank"><img src="https://grcodeclub.github.io/file/logo_and_graphic/edit.png"  width="60px"></a></div>
+                </div> 
             </div> <!--ΤΕΛΟΣ Header show_desktop-->
-           
             <div class="Menu"> <!--ΑΡΧΗ Menu show_desktop-->
                 <div id="sidebarMenu" style="  overflow: auto;">
-                    <ul class="sidebarMenuInner">
-                    </ul>
-                  </div><!--Menu end-->
-            
+                    <ul class="sidebarMenuInner"> </ul>
+                  </div><!--Menu end-->     
             </div><!--ΤΕΛΟΣ Menu show_desktop-->
         </section> <!--ΤΕΛΟΣ show_desktop-->
 
         <section class="show_mobile">  <!--ΑΡΧΗ show_mobile-->
             <div class="Header"> <!--ΑΡΧΗ Header show_mobile-->
-                <table>
-                    <tr>
-                        <td><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></td>
-                        <td><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></td>
-                    </tr>
-                </table> 
+                <div class="layout">
+                    <div><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></div>
+                    <div><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></div>
+                </div> 
             </div> <!--ΤΕΛΟΣ Header show_mobile-->
-           <div>
-                    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-                    <label for="openSidebarMenu" class="sidebarIconToggle">
-                        <div class="spinner diagonal part-1"></div>
-                        <div class="spinner horizontal"></div>
-                        <div class="spinner diagonal part-2"></div>
-                    </label>
-                    <div id="sidebarMenu">
-                        <ul class="sidebarMenuInner"></ul>
-                    </div>
-                </div>
+            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+            <label for="openSidebarMenu" class="sidebarIconToggle">
+                <div class="spinner diagonal part-1"></div>
+                <div class="spinner horizontal"></div>
+                <div class="spinner diagonal part-2"></div>
+            </label>
+            <div id="sidebarMenu">
+                <ul class="sidebarMenuInner"></ul>
+            </div>
         </section> <!--ΤΕΛΟΣ show_mobile-->
 
 
