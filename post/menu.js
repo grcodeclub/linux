@@ -11,7 +11,7 @@ $(document).ready(function() {
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/cmd/file.html">Eντολές Διαχείρισης Αρχείων και Καταλόγων</li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/install_apt_package.html">Install apt package</li>';
+    menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/install_apt_package.html">Apt package</li>';
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/system_file.html">Αρχεία</a></li>';
     $('.sidebarMenuInner').append(menuLink);
