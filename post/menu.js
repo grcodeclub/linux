@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/linux/">Linux</li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = ' <li><a href="https://grcodeclub.github.io/system/">Σύστημα</a></li>';
+    menuLink = ' <li><a href="https://grcodeclub.github.io/system/">Λειτουργικό Σύστημα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/cmd/network.html">Εντολές Δικτύου</li>';
     $('.sidebarMenuInner').append(menuLink);
@@ -18,4 +18,3 @@ $(document).ready(function() {
     menuLink = '<li style="height: 200px;"></li>';
     $('.sidebarMenuInner').append(menuLink);
   });
-  
