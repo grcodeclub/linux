@@ -1,2 +1,2 @@
 #!/bin/sh
-apt install ranger
+apt install python3
