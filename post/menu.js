@@ -15,7 +15,7 @@ $(document).ready(function() {
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/system_file.html">Αρχεία</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = '<li><a href="https://grcodeclub.github.io/windows">Windows</a></li>';
+    menuLink = '<li><a href="https://grcodeclub.github.io/windows">Microsoft Windows</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li style="height: 200px;"></li>';
     $('.sidebarMenuInner').append(menuLink);
