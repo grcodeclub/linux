@@ -101,8 +101,25 @@
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">find</code></pre></div>                
  
             <p>Τροποποιεί τα δικαιώματα πρόσβασης σε αρχεία και καταλόγους.</p>
-            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chmod</code></pre></div>                
- 
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chmod [file_name]</code></pre></div>                
+            <p>Execute permission</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chmod +x [file_name]</code></pre></div>                
+            <p>Read permission</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chmod +r [file_name]</code></pre></div>                
+            <p>Write permission</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chmod +w</code></pre></div>
+            <p>Read, write and execute permissions to the file owner:</p>          
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chmod u+rwx [file_name]</code></pre></div>
+            <p>Read, write and execute permissions to the file group:</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chmod g+rwx [file_name]</code></pre></div>
+            <p>Read, write and execute permissions to the file All (owner,groups,others):</p>               
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chmod a+rwx [file_name]</code></pre></div>
+            <p>Read, write and execute permissions to the file Others:</p>                          
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chmod o+rwx [file_name]</code></pre></div>                
+
+            <p>Remove write permission for the group:</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chmod g-w [file_name]</code></pre></div>                
+
             <p>Αλλάζει τον κάτοχο ενός αρχείου ή καταλόγου.</p>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chown</code></pre></div>                
 
