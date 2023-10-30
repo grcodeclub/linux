@@ -1,5 +1,5 @@
 #!/bin/sh
-apt update
-apt-get update
-apt-get install libreoffice
-apt install neovim
+apt update -y
+apt-get update -y
+apt-get install libreoffice -y
+apt install neovim -y
