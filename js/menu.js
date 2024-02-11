@@ -7,7 +7,6 @@ $(document).ready(function() {
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/linux/terminal">Terminal</li>';
     $('.sidebarMenuInner').append(menuLink);
-    $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/install">Εγκατάσταση Προγραμμάτων</li>';
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/linux/post/system_file">Αρχεία</a></li>';
