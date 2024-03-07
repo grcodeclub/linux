@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=0.8">
+        <meta property="og:image" content="https://grcodeclub.github.io/file/background/linux.png"/>
+        <meta property="og:title" content="Linux | Eντολές Συστήματος">
+        <script src="https://grcodeclub.github.io/js/jquery.js"></script>
+        <script src="https://grcodeclub.github.io/linux/js/menu.js"></script>
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/header_and_footer.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/main.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/text.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/layout.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/code_bg.css" />
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/prism.css" />
+        <script src="https://grcodeclub.github.io/js/prism.js"></script>
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/list.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/body.css">
+        <link rel='icon' type='image/png' href='https://grcodeclub.github.io/file/logo/black_logo.png'>
+        <title> GrCode Club</title>
+    </head>
+
+    <body class="linux">
+
+    <div class="container">
+        <section class="show_desktop"> <!--ΑΡΧΗ show_desktop-->
+            <div class="Header"> <!--ΑΡΧΗ Header show_desktop-->
+                <div class="layout">
+                    <div><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></div>
+                    <div><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></div>
+                </div> 
+            </div> <!--ΤΕΛΟΣ Header show_desktop-->    
+            <div class="Menu"> <!--ΑΡΧΗ Menu show_desktop-->
+                <div id="sidebarMenu" style="  overflow: auto;">
+                    <ul class="sidebarMenuInner"> </ul>
+                  </div><!--Menu end-->      
+            </div><!--ΤΕΛΟΣ Menu show_desktop-->
+        </section> <!--ΤΕΛΟΣ show_desktop-->
+
+        <section class="show_mobile">  <!--ΑΡΧΗ show_mobile-->
+            <div class="Header"> <!--ΑΡΧΗ Header show_mobile-->
+                <div class="layout">
+                    <div><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></div>
+                    <div><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></div>
+                </div> 
+            </div> <!--ΤΕΛΟΣ Header show_mobile-->
+            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+            <label for="openSidebarMenu" class="sidebarIconToggle">
+                <div class="spinner diagonal part-1"></div>
+                <div class="spinner horizontal"></div>
+                <div class="spinner diagonal part-2"></div>
+            </label>
+            <div id="sidebarMenu">
+                <ul class="sidebarMenuInner"></ul>
+            </div>
+        </section> <!--ΤΕΛΟΣ show_mobile-->
+
+
+        <div class="Text"> <!--ΑΡΧΗ Text-->
+            <div class="text_bg">
+            <h1 class="title">Git-Commands</h1>
+            <h3 class="highlight_black">Αρχικοποιήστε ένα τοπικό αποθετήριο Git</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git init</code></pre></div>                
+            <h3 class="highlight_black">Δημιουργήστε ένα τοπικό αντίγραφο ενός απομακρυσμένου repository</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git clone ssh://git@github.com/[username]/[repository-name].git	</code></pre></div>                
+            <h3 class="highlight_black">Ελέγξετε την κατάσταση toy git</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git status</code></pre></div>                
+            <h3 class="highlight_black">Προσθέστε ένα αρχείο</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git add [file-name.txt]</code></pre></div>                
+            <h3 class="highlight_black">Λίστα κλάδων (ο αστερίσκος υποδηλώνει τον τρέχοντα κλάδο)</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git branch</code></pre></div>                
+            <h3 class="highlight_black">Εφαρμογή των αλλαγών στο απομακρυσμένο αποθετήριο</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git push origin [branch name]</code></pre></div>                
+            <h3 class="highlight_black">Ενημέρωση του τοπικού repository</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git pull origin [branch name]</code></pre></div>                
+            <h3 class="highlight_black">Προβολή αλλαγών</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git log</code></pre></div>                
+            <h3 class="highlight_black">Προβολή αλλαγών (Aναλυτικά)</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git log --summary</code></pre></div>                
+            <h3 class="highlight_black">Προβολή αλλαγών (Συνοπτικά)</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git log --oneline</code></pre></div>                
+            <h3 class="highlight_black">Προσθέστε ένα απομακρυσμένο αποθετήριο</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git remote add origin ssh://git@github.com/[username]/[repository-name].git</code></pre></div>                
+            <h3 class="highlight_black">Set a repository's origin branch to SSH</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git remote set-url origin ssh://git@github.com/[username]/[repository-name].git</code></pre></div>                
+
+        </div>
+        </div> <!--ΤΕΛΟΣ Text-->
+
+    </div> <!--ΤΕΛΟΣ container-->
+        
+        <!-- Footer -->
+        <footer>
+            <table class="add_footer"></table>
+            <script src="https://grcodeclub.github.io/js/footer.js"></script>       
+        </footer>
+    </body>
+</html>
