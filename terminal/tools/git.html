@@ -41,6 +41,25 @@
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git remote add origin ssh://git@github.com/[username]/[repository-name].git</code></pre></div>                
             <h3 class="highlight_black">Set a repository's origin branch to SSH</h3>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git remote set-url origin ssh://git@github.com/[username]/[repository-name].git</code></pre></div>                
+            <h3 class="highlight_black">Διαγραφή του branch από το απομακρυσμένο αποθετήριο</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git push origin --delete old-branch-name</code></pre></div>
+            <h3 class="highlight_black">Εύρεση του Commit ID</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git log</code></pre></div>
+            <h3 class="highlight_black">Επαναφορά του branch στο συγκεκριμένο commit</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git reset --hard [commit-id]</code></pre></div>
+            <h3 class="highlight_black">Εκτέλεσε Interactive Rebase</h3>
+            <p>Αντικατάστησε το N με τον αριθμό των commits που θέλεις να εξετάσεις.</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash"></code>git rebase -i HEAD~N</pre></div>
+            <p>Επιλογή Commit για Διαγραφή: Για να διαγράψεις ένα commit, απλά άλλαξε την λέξη pick σε drop δίπλα από το commit που θέλεις να διαγράψεις.</p>
+            <h3 class="highlight_black">Δημιουργία νέου branch</h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git checkout --orphan new-branch-name</code></pre></div>
+            <p>Το --orphan δημιουργεί ένα νέο branch χωρίς ιστορικό commits.</p>
+            <h3 class="highlight_black"></h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash"></code></pre></div>
+            <h3 class="highlight_black"></h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash"></code></pre></div>
+            <h3 class="highlight_black"></h3>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash"></code></pre></div>
 
         </div>
         </div> <!--ΤΕΛΟΣ Text-->
