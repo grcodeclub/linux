@@ -54,10 +54,13 @@
             <h3 class="highlight_black">Δημιουργία νέου branch</h3>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git checkout --orphan new-branch-name</code></pre></div>
             <p>Το --orphan δημιουργεί ένα νέο branch χωρίς ιστορικό commits.</p>
-            <h3 class="highlight_black"></h3>
-            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash"></code></pre></div>
-            <h3 class="highlight_black"></h3>
-            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash"></code></pre></div>
+            <h3 class="highlight_black">Αντικατάσταση του Παλιού Branch</h3>
+            <p>Αν θέλεις να αντικαταστήσεις το παλιό branch με το νέο, μπορείς να διαγράψεις το παλιό branch από το απομακρυσμένο repository και να σπρώξεις το νέο branch:</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git push origin --delete old-branch-name
+git push origin new-branch-name</code></pre></div>
+            <p>Αν θέλεις να σπρώξεις το νέο branch ως το branch που αντικαθιστά το παλιό:</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">git branch -M old-branch-name
+git push -f origin old-branch-name</code></pre></div>
             <h3 class="highlight_black"></h3>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash"></code></pre></div>
 
