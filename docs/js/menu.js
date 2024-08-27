@@ -1,16 +1,18 @@
-$(document).ready(function() {
-    var menuLink = ' <li><a href="https://grcodeclub.github.io">Αρχική Σελίδα</a></li>';
-    $('.sidebarMenuInner').append(menuLink);
-    menuLink = '<li><a href="https://grcodeclub.github.io/linux/">Linux</li>';
-    $('.sidebarMenuInner').append(menuLink);
-    menuLink = '<li><a href="https://grcodeclub.github.io/linux/terminal">Terminal</li>';
-    $('.sidebarMenuInner').append(menuLink);
-    menuLink = '<li><a href="https://grcodeclub.github.io/linux/install">Εγκατάσταση Προγραμμάτων</li>';
-    $('.sidebarMenuInner').append(menuLink);
-    menuLink = '<li><a href="https://grcodeclub.github.io/linux/files">Αρχεία</a></li>';
-    $('.sidebarMenuInner').append(menuLink);
-        menuLink = '<li><a href="https://grcodeclub.github.io/linux/orologia">Ορολογία</a></li>';
-    $('.sidebarMenuInner').append(menuLink);
-    menuLink = '<li style="height: 200px;"></li>';
-    $('.sidebarMenuInner').append(menuLink);
-  });
+window.onload = function() {
+    var menuLinks = [
+        '<li><a href="https://grcodeclub.gr">Αρχική Σελίδα</a></li>',
+        '<li><a href="https://grcodeclub.github.io/linux/">Linux</li>',
+        '<li><a href="https://grcodeclub.github.io/linux/terminal">Terminal</li>',
+        '<li><a href="https://grcodeclub.github.io/linux/install">Εγκατάσταση Προγραμμάτων</li>',
+        '<li><a href="https://grcodeclub.github.io/linux/files">Αρχεία</a></li>',
+        '<li><a href="https://grcodeclub.github.io/linux/orologia">Ορολογία</a></li>',
+        '<li style="height: 200px;"></li>';
+    ];
+    
+    var $sidebarMenuInners = document.querySelectorAll('.sidebarMenuInner');
+    $sidebarMenuInners.forEach(function($sidebarMenuInner) {
+    menuLinks.forEach(function(link) {
+        $sidebarMenuInner.insertAdjacentHTML('beforeend', link);
+    });
+});
+};
