@@ -6,7 +6,7 @@ window.onload = function() {
         '<li><a href="https://grcodeclub.github.io/linux/install">Εγκατάσταση Προγραμμάτων</li>',
         '<li><a href="https://grcodeclub.github.io/linux/files">Αρχεία</a></li>',
         '<li><a href="https://grcodeclub.github.io/linux/orologia">Ορολογία</a></li>',
-        '<li><a href="https://grcodeclub.github.io/linux/more/distro">Distros</a></li>',
+        '<li><a href="https://grcodeclub.github.io/linux/more/distro">Λίστα με τα Distro</a></li>',
         '<li style="height: 200px;"></li>'
     ];
     
