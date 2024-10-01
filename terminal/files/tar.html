@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta property="og:image" content="https://grcodeclub.github.io/files-page/preview/linux.png"/>
+        <meta property="og:title" content="Linux | Τρόπος αποσυμπίεσης αρχείων .tar.gz στο Linux">
+        <script src="https://grcodeclub.github.io/js/add/data.js"></script>
+    </head>
+
+    <body idd="linux">
+
+    <div class="container">
+            <div id="add_headder_and_menu"></div>
+
+        <div class="Text"> <!--ΑΡΧΗ Text-->
+            <a href="../"><h1 id="back_page"></h1></a> <script src="https://grcodeclub.github.io/js/add/back_page.js"></script>
+            <div class="text_bg">
+            <h1 class="title">Τρόπος αποσυμπίεσης αρχείων .tar.gz στο Linux</h1>
+            <p>Πώς να αποσυμπιέσετε το .tar.gz χρησιμοποιώντας το tar</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">tar –xvzf [archive name]</code></pre></div>                
+            <ol>
+                <li>x - δίνει εντολή στο tar να εξαγάγει τα αρχεία από το συμπιεσμένο αρχείο.</li>
+                <li>v - παραθέτει τα αρχεία που εξάγει.</li>
+                <li>z - δίνει εντολή στο tar να αποσυμπιέσει τα αρχεία.</li>
+                <li>f - λέει στο tar το όνομα του αρχείου.</li>
+            </ol>
+            <p>Εξαγωγή αρχείων σε συγκεκριμένο κατάλογο</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">tar -xvzf example1.tar.gz -C ./Documents</code></pre></div>                
+            <p>Εξαγωγή μόνο συγκεκριμένων αρχείων</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">tar -xvzf example1.tar.gz File1.deb</code></pre></div>                
+            <p>Εξαγωγή αρχείων με συγκεκριμένη επέκταση ή όνομα</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">tar -xvzf example1.tar.gz File1.deb</code></pre></div>                
+        </div>
+        </div> <!--ΤΕΛΟΣ Text-->
+
+    </div> <!--ΤΕΛΟΣ container-->
+        
+        <footer id="addFooter"></footer> <!-- Footer -->
+    </body>
+</html>
