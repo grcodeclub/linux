@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta property="og:image" content="https://grcodeclub.github.io/files-page/preview/linux.png"/>
-    <meta property="og:title" content="Linux">
+    <meta property="og:title" content="Linux | Διαχείριση Αρχείων και Καταλόγων">
     <title>GrCode Club</title>
     <script src="https://grcodeclub.gr/js/data.js"></script>
+    
 </head>
 <body>
     <div id="addHeader"></div>
     <div class="container">
-        <br><a class="btn btn-dark" href="../"><i class="bi bi-arrow-left"></i> </a><br><br>
-        <h1 class="title">Διαχείριση Αρχείων και Καταλόγων (Eντολές)</h1>
-        <br>
-        <h3 class="highlight">Αρχεία και Καταλογοι</h3>
+        <h1 class="title">Διαχείριση Αρχείων και Καταλόγων</h1>
+        <div id="linux-term"></div>
+        <p class="highlight">Αρχεία και Καταλογοι</p>
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">touch file.txt</code></pre></div>                
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">cat file.txt</code></pre></div>                
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">wc -l file.txt</code></pre></div>                
@@ -25,18 +25,16 @@
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">find</code></pre></div>                
         <p>Όλες τις χρονοσημάνσεις μαζί με άλλες πληροφορίες για ένα αρχείο εμφανίζονται με την εντολή stat (status).</p>
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">stat</code></pre></div>                
-
-
-        <br><br><br>
-        <h3 class="highlight">Πλοήγηση στους καταλόγους</h3>
+        <br>
+        <p class="highlight">Πλοήγηση στους καταλόγους</p>
         <p>Εμφανίζει τον τρέχοντα κατάλογο εργασίας</p>
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">pwd</code></pre></div>                
         <p> Η μετάβαση σε έναν άλλον κατάλογο του Συστήματος γίνεται με την εντολή <b>cd</b> με όρισμα την απόλυτη ή διαδρομλη του καταλόγου,
             τον οποίο θέλουμε να κάνουμε τρέχοντα.</p>
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">cd /home/grcodeclub</code></pre></div>                
 
-        <br><br><br>
-        <h3 class="highlight">Διαγραφή</h3>
+        <br>
+        <p class="highlight">Διαγραφή</p>
         <p>Διαγράφει αρχεία ή καταλόγους. (Προσοχή: Μόνο με προσεκτική χρήση!)</p>
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">rm</code></pre></div>                
         <p>Το <b>-f (--force)</b> διαγράφει χωρίς ερώτηση</p>
@@ -61,8 +59,8 @@
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">rm -r</code></pre></div> 
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">rm -R</code></pre></div> 
         
-        <br><br><br>
-        <h3 class="highlight">Περιεχόμενα ενος καταλόγους</h3>
+        <br>
+        <p class="highlight">Περιεχόμενα ενος καταλόγους</p>
         <p>Εμφανίζει τον τρέχοντα κατάλογο εργασίας</p>
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">pwd</code></pre></div>                
         <p>Εμφανίζει τα περιεχόμενα ενός καταλόγου.</p>
@@ -86,14 +84,14 @@
         <p></p>
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">ls -S</code></pre></div>                
         
-        <br><br><br>
-        <h3 class="highlight">Αντιγραφλη</h3>
+        <br>
+        <p class="highlight">Αντιγραφλη</p>
         <p>Αντιγράφει αρχεία και καταλόγους.</p>
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">cp</code></pre></div>                
         <p>Για να δημιουργήσουμε ένα αντίγραφο στον ίδιο κατάλογο με το πρωτότυπο αρκεί να δώσουμε αντί για όνομα κατάλογου το νεό όνομα του αρχείου.</p>
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">cp file.txt newfile.txt</code></pre></div>                
         <br><br><br>
-        <h3 class="highlight">Δικαιώματα</h3>
+        <p class="highlight">Δικαιώματα</p>
         <p>Τροποποιεί τα δικαιώματα πρόσβασης σε αρχεία και καταλόγους.</p>
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chmod [file_name]</code></pre></div>                
         <p>Execute permission</p>
@@ -113,8 +111,8 @@
         <p>Remove write permission for the group:</p>
         <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chmod g-w [file_name]</code></pre></div>                
         <p>Αλλάζει τον κάτοχο ενός αρχείου ή καταλόγου.</p>
-        <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chown</code></pre></div>   
-    </div>
+        <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">chown</code></pre></div>  
+        </div>
     <div id="addFooter"></div>
 </body>
 </html>
